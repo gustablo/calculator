@@ -1,0 +1,19 @@
+<app-container id="container">
+
+  <app-display></app-display>
+
+  <div id="btns-container">
+    <div id="number-btns">
+      <app-number-buttons style="width: 30%;" *ngFor="let nb of numberButtons" [label]="nb"></app-number-buttons>
+    </div>
+
+    <div id="logic-btns">
+      <app-logic-buttons style="width: 70%; height: 30%;" *ngFor="let lb of logicButtons" [label]="lb">
+      </app-logic-buttons>
+
+    </div>
+
+  </div>
+  <app-calculate-button class="calculate-btn"></app-calculate-button>
+
+</app-container>

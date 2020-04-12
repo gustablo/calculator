@@ -1,0 +1,9 @@
+#container-grid {
+    margin: 0 auto;
+    width: 15em;
+    height: 371px;
+    position: relative;
+    background-color: #904F33;
+    box-shadow: 6px 10px 40px #ddbc9d;
+    border-radius: 6px;
+}
