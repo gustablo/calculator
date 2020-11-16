@@ -1,6 +1,6 @@
 # Calculator
 
-Uma simples calculadoras para treinar e aplicar os conceitos do angular
+Uma simples calculadora para treinar e aplicar os conceitos do angular
 
 ## Development server
 
